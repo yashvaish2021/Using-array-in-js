@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+.grid-columns {
+    padding: 3rem;
+    background-color: rgb(9, 60, 227);
+    margin: 0.5rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+}
